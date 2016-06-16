@@ -5,3 +5,6 @@ rvm:
 cache: bundler
 script:
   - bundle exec jekyll build
+
+notifications:
+  email: false

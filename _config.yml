@@ -1,6 +1,6 @@
 # Site settings
 title: "markroxor"
-bye_message: "Thx!"
+bye_message: "--"
 baseurl: "/"
 url: "https://markroxor.github.io"
 disqus: markroxor
