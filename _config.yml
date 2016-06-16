@@ -1,0 +1,24 @@
+# Site settings
+title: "markroxor"
+bye_message: "Thx!"
+baseurl: "/"
+url: "https://markroxor.github.io"
+disqus: markroxor
+
+# Header settings
+nick: "markroxor"
+name: "Mohit Rathore"
+mail:
+    domain: "markroxor"
+    ext: "in"
+source_code:
+    server: "github.com"
+    nick: "markroxor"
+blog:
+    server: "wordpress.com"
+    nick: "markroxor"
+#fingerprint_key: "5E12 9ABC C2A9 564B C048  2DF9 D327 0D10 BC71 CF75"
+
+# Build settings
+markdown: kramdown
+permalink: /:categories/:title/
