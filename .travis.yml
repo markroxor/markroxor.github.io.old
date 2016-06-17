@@ -2,11 +2,12 @@ language: ruby
 rvm:
   - 2.3.0
 
-
-cache: bundler
+install:
+  - gem install bundler
+  
 script:
-  - bundle exec jekyll build
-  - bundle exec ./validate.rb
-
+#  - bundle exec jekyll build
+#  - bundle exec ./validate.rb
+   - jekyll build
 notifications:
   email: false
