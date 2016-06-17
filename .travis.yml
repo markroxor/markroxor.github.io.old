@@ -2,9 +2,11 @@ language: ruby
 rvm:
   - 2.3.0
 
-cache: bundler
+install:
+  - pip install -r requirements.txt
+
 script:
-  - bundle exec jekyll build
+  - jekyll build
 
 notifications:
   email: false
