@@ -1,0 +1,20 @@
+{
+  "name": "markroxor.github.io",
+  "homepage": "https://github.com/markroxor/markroxor.github.io",
+  "authors": [
+    "markroxor <mrmohitrathoremr@gmail.com>"
+  ],
+  "description": "markroxor's github page.",
+  "main": "index.html",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "App States": "bower.json#^0.6.9"
+  }
+}
