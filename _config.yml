@@ -2,7 +2,7 @@
 title: "The Hive"
 bye_message: "--"
 baseurl: "/"
-url: "https://markroxor.github.io"
+url: "markroxor.github.io"
 disqus: markroxor
 
 # Header settings
@@ -22,3 +22,5 @@ blog:
 # Build settings
 markdown: kramdown
 permalink: /:categories/:title/
+
+timezone: Asia/Kolkata

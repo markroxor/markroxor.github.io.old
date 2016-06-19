@@ -6,7 +6,7 @@ layout: page
 
   <header class="post-header">
     <p class="meta">
-        {{ page.date | date: "%b %-d, %Y" }}
+        {{ page.date | date: "%b %d, %Y" }}
         {% if page.author %} • {{ page.author }}{% endif %}
         {% if page.meta %} • {{ page.meta }}{% endif %}
         •
@@ -17,10 +17,10 @@ layout: page
   <article class="post-content">
   {{ content }}
   </article>
-
+<!--
 	<p class="feed-recomendation">
 		Gostou do post? Assina o <a href="{{ site.baseurl }}feed/">feed</a> e seja feliz!!
-	</p>
+	</p> -->
 
   {% include disqus.html %}
 
